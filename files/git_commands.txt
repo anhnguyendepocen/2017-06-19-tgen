@@ -1,0 +1,170 @@
+  503  source .bashrc
+  504  echo "Good morning"
+  505  clear
+  505  clear
+  505  clear
+  506  clear
+  507  git
+  508  echo hi
+  509  git config --global user.name "Emily Davenport"
+  510  clear
+  511  git config --global user.email "erdavenport@uwalumni.com"
+  512  git config --global color.ui "auto"
+  513  git config --global core.editor "nano"
+  514  git config --list
+  515  pwd
+  516  mkdir planets
+  517  clar
+  518  clear
+  519  cd planets/
+  520  pwd
+  521  git init
+  522  ls
+  523  ls -a
+  524  git status
+  525  clar
+  526  clear
+  527  nano mars.txt
+  528  cat mars.txt 
+  529  ls
+  530  git status
+  531  git add mars.txt 
+  532  clear
+  533  git status
+  534  git commit -m "Started notes on Mars as a base"
+  535  git status
+  536  git log
+  537  ls
+  538  ls -a
+  539  clear
+  540  nano mars.txt
+  541  cat mars.txt 
+  542  git status
+  543  git diff
+  544  git commit -m "Add concerns about effects of Mars' moons on Wolfman"
+  545  clear
+  546  git add mars.txt
+  547  git status
+  548  git commit -m "Add concerns about effects of Mars' moons on Wolfman"
+  549  git status
+  550  PS1='$ '
+  551  clear
+  552  nano mars.txt 
+  553  cat mars.txt 
+  554  git diff
+  555  clear
+  556  git add mars.txt 
+  557  git diff
+  558  git diff --staged
+  559  git commit -m "Discuss concerns about Mars' climate for Mummy"
+  560  git log
+  561  cd ..
+  562  pwd
+  563  mkdir bio
+  564  cd bio/
+  565  nano me.txt
+  566  git init
+  567  git add me.txt 
+  568  git status
+  569  git commit -m "Wrote a bio"
+  570  nano me.txt 
+  571  git diff
+  572  git add me.txt 
+  573  git commit -m "updated bio"
+  574  git log
+  575  pwd
+  576  cd ../planets/
+  577  pwd
+  578  clear
+  579  git diff HEAD~1 mars.txt 
+  580  git diff HEAD~2 mars.txt 
+  581  git log
+  582  git diff 745e64cf mars.txt 
+  583  nano mars.txt 
+  584  clear
+  585  cat mars.txt 
+  586  git checkout HEAD mars.txt 
+  587  cat mars.txt 
+  588  mkdir results
+  589  touch a.dat b.dat c.dat results/a.out results/b.out
+  590  ls
+  591  nano .gitignore
+  592  git status
+  593  git add .gitignore 
+  594  git commit -m "added an ignore file"
+  595  git status
+  596  git add a.dat 
+  597  git status --ignored
+  598  pwd
+  599  git remote add https://github.com/erdavenport/planets.git
+  600  clear
+  601  git remote add origin https://github.com/erdavenport/planets.git
+  602  git remote -v
+  603  git push origin master
+  604  git pull origin master
+  605  clear
+  606  pwd
+  607  cd /tmp
+  608  pwd
+  609  git clone https://github.com/erdavenport/planets.git
+  610  ls
+  611  cd planets/
+  612  pwd
+  613  nano pluto.txt
+  614  clear
+  615  cat pluto.txt 
+  616  git add pluto.txt 
+  617  git commit -m "Some notes about Pluto"
+  618  git status
+  619  git push origin master
+  620  pwd
+  621  cd ~/planets/
+  622  pwd
+  623  git pull origin master
+  624  ls
+  625  cat mars.txt 
+  626  nano mars.txt 
+  627  clear
+  628  cat mars.txt 
+  629  git add mars.txt 
+  630  git commit -m "added a line to our home copy"
+  631  git push origin master
+  632  cd /tmp/planets/
+  633  pwd
+  634  ls
+  635  nano mars.txt 
+  636  clear
+  637  cat mars.txt 
+  638  git add mars.txt 
+  639  git commit -m "Added a line in the temp copy"
+  640  git push origin master
+  641  git pull origin master
+  642  cat mars.txt 
+  643  nano mars.txt 
+  644  clear
+  645  cat mars.txt 
+  646  git add mars.txt 
+  647  git status
+  648  git commit -m "Merging changes from Github"
+  649  git status
+  650  git push origin master
+  651  cd ~/planets/
+  652  git status
+  653  git pull origin master
+  654  cat mars.txt 
+  655  git log
+  656  ls
+  657  cd ..
+  658  ls
+  659  cd bio/
+  660  git status
+  661  git remote add origin https://github.com/erdavenport/bio.git
+  662  git remote -v
+  663  git push origin master
+  664  ls
+  665  nano me.txt 
+  666  git add me.txt 
+  667  git commit -m "made changes to me.txt"
+  668  git push origin master
+  669  cd
+  670  nano .bashrc

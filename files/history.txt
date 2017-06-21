@@ -1,0 +1,343 @@
+  502  PS1='$ '
+  503  whoami
+  504  mycommand
+  505  pwd
+  506  ls
+  507  ls -F
+  508  ls -F
+  508  ls -F
+  509  ls --help
+  510  man ls
+  511  ls -j
+  512  ls -F Desktop
+  513  ls -F
+  514  ls -F Desktop
+  515  ls -F Desktop/data-shell
+  516  cd Desktop
+  517  ls -F
+  518  cd data-shell
+  519  cd data
+  520  pwd
+  521  ls -F
+  522  cd data-shell
+  523  cd ..
+  524  pwd
+  525  cd ..
+  526  pwd
+  527  ls -F -a
+  527  ls -F -a
+  527  ls -F -a
+  527  ls -F -a
+  528  cd
+  529  pwd
+  530  cd ~
+  531  pwd
+  532  cd /Users/nbanovich/Desktop/data-shell
+  533  pwd
+  534  cd ~/Desktop/data-shell
+  535  pwd
+  536  cd /Users/~
+  537  ls north-pacific-gyre/2012-07-03/
+  538  ls n
+  538  ls n
+  538  ls n
+  539  clear
+  540  ls north-pacific-gyre/2012-07-03/
+  541  ls -l
+  542  ls -l -h
+  543  ls -lh
+  544  ls -G
+  545  cd ~/Desktop/
+  546  ls -lt
+  547  ls -l
+  548  clear
+  549  pwd
+  550  cd ~/Desktop/data-shell
+  551  ls -F
+  552  mkdir thesis
+  553  ls -F
+  554  clear
+  555  ls -F thesis
+  556  cd thesis/
+  557  nano draft.txt
+  557  nano draft.txt
+  557  nano draft.txt
+  557  nano draft.txt
+  558  nano draft.txt
+  559  ls -F
+  560  rm draft.txt 
+  561  nano draft.txt
+  562  ls
+  563  cd ..
+  564  rm thesis/
+  565  rm -r thesis/
+  566  ls -F
+  566  ls -F
+  566  ls -F
+  567  clear
+  568  mkdir thesis
+  569  cd thesis
+  570  nano draft.text
+  571  cd ..
+  572  rm -r -i thesis
+  573  mkdir thesis
+  574  clear
+  575  cd thesis
+  576  nano draft.txt
+  577  ls
+  578  mv draft.txt quotes.txt
+  579  ls
+  580  cd ..
+  581  mv thesis/quotes.txt .
+  582  ls
+  583  ls thesis
+  584  clear
+  585  ls thesis
+  586  pwd
+  586  pwd
+  586  pwd
+  586  pwd
+  587  cp quotes.txt thesis/quotations.txt
+  588  ls
+  589  ls thesis
+  590  clear
+  591  ls
+  592  ls thesis/
+  593  ls quotes.txt 
+  594  ls -l quotes.txt 
+  595  rm quotes.txt 
+  596  clear
+  597  ls
+  598  ls thesis
+  599  ls
+  600  pwd
+  601  touch my_file.txt
+  602  ls
+  603  ls -l my_file.txt 
+  604  ll
+  605  clear
+  606  pwd
+  607  ls molecules/
+  608  cd molecules/
+  609  wc *.pdb
+  610  ls p*
+  611  ls *e*
+  612  wc -l *.pdb
+  612  wc -l *.pdb
+  612  wc -l *.pdb
+  613  clear
+  614  wc -l *.pdb > lengths.txt
+  615  ls lengths.txt 
+  616  cat lengths.txt 
+  617  less lengths.txt 
+  617  less lengths.txt 
+  617  less lengths.txt 
+  618  clear
+  619  sort -n lengths.txt 
+  620  sort lengths.txt 
+  621  clear
+  622  sort -n lengths.txt 
+  623  sort -n lengths.txt > sorted_lengths.txt
+  624  clear
+  625  ls
+  626  head -n 1 sorted_lengths.txt 
+  627  head -n 2 sorted_lengths.txt 
+  628  sort -n lengths.txt > lengths.txt 
+  629  cat lengths.txt 
+  630  clear
+  631  wc -l *.pdb | sort -n
+  632  wc -l *.pdb | sort -n | head -n 1
+  633  pwd
+  634  clear
+  635  cd ../north-pacific-gyre/2012-07-03/
+  636  pwd
+  636  pwd
+  637  clear
+  638  wc -l *.txt
+  638  wc -l *.txt
+  639  clear
+  640  wc -l *.txt | sort -n | head -n 5
+  641  wc -l *.txt | sort -n | tail -n 5
+  641  wc -l *.txt | sort -n | tail -n 5
+  642  clear
+  643  ls *Z*.txt
+  644  ls *z*.txt
+  645  clear
+  646  pwd
+  647  ls
+  648  cd ../
+  649  ll
+  650  ls
+  651  cd ../
+  652  ls
+  653  echo hello my_file.txt 
+  654  echo hello > my_file.txt 
+  655  cat my_file.txt 
+  656  echo hello > my_file.txt 
+  657  cat my_file.txt 
+  658  echo hello >> my_file.txt 
+  659  cat my_file.txt 
+  660  echo hello again  >> my_file.txt 
+  661  echo bye  >> my_file.txt 
+  662  cat my_file.txt 
+  663  echo bye > my_file.txt 
+  664  cat my_file.txt 
+  665  cd
+  666  ll
+  667  less test.txt 
+  668  cd ~
+  669  less test.txt 
+  670  head test.txt 
+  671  cat test.txt 
+  671  cat test.txt 
+  671  cat test.txt 
+  671  cat test.txt 
+  672  less test.txt 
+  673  less test.txt 
+  674  less test.txt  
+  675  wc -l test.txt 
+  676  head test.txt -n 6 | tail -n 2
+  677  head test.txt -n 5 | tail -n 1
+  678  clear
+  679  pwd
+  680  cd Desktop/data-shell/creatures/
+  681  pwd
+  682  ls
+  683  cp *.dat original_*.dat
+  683  cp *.dat original_*.dat
+  683  cp *.dat original_*.dat
+  683  cp *.dat original_*.dat
+  683  cp *.dat original_*.dat
+  683  cp *.dat original_*.dat
+  683  cp *.dat original_*.dat
+  683  cp *.dat original_*.dat
+  684  ls *dat
+  685  ls unicorn.dat 
+  686  clear
+  687  for filename in basilisk.dat unicorn.dat ; do head -n 3 $filename; done
+  688  echo $filename
+  688  echo $filename
+  688  echo $filename
+  689  clear
+  690  for filename in basilisk.dat unicorn.dat ; do echo $filename; done
+  691  for i in basilisk.dat unicorn.dat ; do echo $filename; done
+  692  for i in basilisk.dat unicorn.dat ; do echo $i; done
+  692  for i in basilisk.dat unicorn.dat ; do echo $i; done
+  692  for i in basilisk.dat unicorn.dat ; do echo $i; done
+  693  clear
+  694  for filename in *; do head -n 3 filename; done
+  695  for filename in *; do head -n 3 $filename; done
+  696  clear
+  697  for filename in *.dat; do echo $filename; head -n 100 $filename | tail -n 20; done
+  698  clear
+  699  for filename in *.dat; do cp $filename original_$filename; done
+  700  ls
+  701  cd ../north-pacific-gyre/2012-07-03/
+  702  pwd
+  703  clear
+  704  ls
+  705  for datafile in *[AB].txt; do echo $datafile; done
+  706  clear
+  707  ls *[AZ].txt
+  708  ls *AB.txt
+  709  ls *[A-Z].txt
+  710  ls *[0-9].txt
+  711  clear
+  712  ls *[ABZ].txt
+  713  ls *[AB][z].txt
+  714  ls *[AB][Z].txt
+  715  ls *[AB].[Z].txt
+  716  for datafile in *[AB].txt; do echo $datafile stats-$datafile; done
+  717  for datafile in *[AB].txt; do bash goostats $datafile stats-$datafile; done
+  718  ls
+  719  head stats-NENE02043B.txt 
+  720  for datafile in *[AB].txt; do echo $datafile; bash goostats $datafile stats-$datafile; done
+  720  for datafile in *[AB].txt; do echo $datafile; bash goostats $datafile stats-$datafile; done
+  720  for datafile in *[AB].txt; do echo $datafile; bash goostats $datafile stats-$datafile; done
+  720  for datafile in *[AB].txt; do echo $datafile; bash goostats $datafile stats-$datafile; done
+  721  clear
+  721  clear
+  721  clear
+  721  clear
+  721  clear
+  721  clear
+  721  clear
+  722  cat goostats
+  722  cat goostats
+  722  cat goostats
+  722  cat goostats
+  723  clear
+  723  clear
+  724  bash goostats NENE01729A.txt 
+  725  bash goostats NENE01729A.txt stats-NENE01729A.txt
+  726  clear
+  726  clear
+  726  clear
+  726  clear
+  727  ls
+  728  ls stats*
+  729  rm stats*
+  730  clear
+  731  ls
+  732  for datafile in *[AB].txt; do echo $datafile; bash goostats $datafile stats-$datafile; done
+  733  ls
+  734  cat goostats 
+  735  clear
+  736  ls -l
+  737  nano
+  737  nano
+  737  nano
+  738  clear
+  739  nano helo_world.sh
+  740  ls -l helo_world.sh 
+  741  bash helo_world.sh 
+  742  helo_world.sh
+  743  mv helo_world.sh hello_world.sh
+  744  chmod +x hello_world.sh 
+  745  ls -l hello_world.sh 
+  746  hello_world
+  746* 
+  746* 
+  747  hello_world.sh
+  748  bash hello_world.sh
+  749  clear
+  750  pwd
+  751  cd ../../writing/
+  752  pwd
+  753  ls
+  754  cat haiku.txt 
+  755  clear
+  756  grep not haiku.txt 
+  757  pwd
+  758  grep The haiku.txt 
+  759  grep -w The haiku.txt 
+  760  clezar
+  761  clear
+  762  grep T* haiku.txt 
+  763  grep The -v  haiku.txt 
+  764  grep T -v  haiku.txt 
+  765  grep T  haiku.txt 
+  766  grep T* haiku.txt 
+  767  grep T -i  haiku.txt 
+  768  grep T -i -v haiku.txt 
+  769  grep X -i -v haiku.txt 
+  769  grep X -i -v haiku.txt 
+  769  grep X -i -v haiku.txt 
+  770  clear
+  771  grep [AB] -w 
+  771  grep [AB] -w 
+  771  grep [AB] -w 
+  772  grep [AB] haiku.txt 
+  773  grep [ab] haiku.txt 
+  773  grep [ab] haiku.txt 
+  774  clear
+  775  grep The -w haiku.txt > The_haiku.txt
+  776  ls
+  777  cat The_haiku.txt 
+  778  grep The -w haiku.txt | The_haiku.txt
+  779  grep The haiku.txt 
+  780  grep The haiku.txt | head -n 1
+  780  grep The haiku.txt | head -n 1
+  780  grep The haiku.txt | head -n 1
+  499  grep The haiku.txt | head -n 1
+  500  git
